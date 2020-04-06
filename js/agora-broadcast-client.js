@@ -2,7 +2,7 @@
  * Agora Broadcast Client 
  */
 
-var agoraAppId = ''; // set app id
+var agoraAppId = '75d08682dec74d169ba80e816068ce85'; // set app id
 var channelName = 'AgoraBroadcastDemo'; // set channel name
 
 // create client instance
@@ -128,7 +128,7 @@ client.on('unmute-video', function (evt) {
 // join a channel
 function joinChannel() {
   var token = generateToken();
-  var userID = 0; // set to null to auto generate uid on successfull connection
+  var userID = null; // set to null to auto generate uid on successfull connection
 
   // set the role
   client.setClientRole('host', function() {

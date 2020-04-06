@@ -2,7 +2,7 @@
  * Agora Broadcast Client 
  */
 
-var agoraAppId = ''; // set app id
+var agoraAppId = '75d08682dec74d169ba80e816068ce85'; // set app id
 var channelName = 'AgoraBroadcastDemo'; // set channel name
 
 // create client 
