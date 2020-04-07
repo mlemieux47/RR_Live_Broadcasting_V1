@@ -2,16 +2,34 @@
 
 body {
   text-align: center;
+  margin-top: 10%;
 };
+
+h1 {
+  font-size: 100px;
+  margin-bottom: -20%;
+}
+
+h2 {
+  margin-top: -2%;
+  margin-bottom: 10%;
+}
+
+.audience-button:hover {
+  cursor: pointer;
+}
 
 .audience-button {
-  margin-right: 10%;
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 4px 0;
+  text-transform: uppercase;
+  margin-left: 5%;
+  margin-right: 5%;
   display: inline;
   font-family: 'Roboto', sans-serif;
-};
-
-.host-button {
-  margin-left: 10%;
-  display: inline;
-  font-family: 'Roboto', sans-serif;
+  background: #3498db;
+  color: #FFFFFF;
 };
