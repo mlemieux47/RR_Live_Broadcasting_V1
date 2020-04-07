@@ -1,11 +1,13 @@
 <html lang="en">
     <head>
+      <link rel="stylesheet" href="./css/home.css">
 		<title>Reflective Refuge</title>
     </head>
     <body>
       <h1>Reflective Refuge</h1>
       <h2>Audience or host?</h2>
-      <a href="http://localhost:5500"><button>Audience</button></a>
-      <a href="http://localhost:5500/agora-broadcast-client.html"><button>Host</button></a>
+      <button class="audience-button" onclick="window.location.href = 'http://localhost:5500';">Audience</button>
+      <button class="host-button" onclick="window.location.href = 'http://localhost:5500/agora-broadcast-client.html';">Host</button>
     </body>
+    <script src="./js/home.js"></script>
 </html>

@@ -1,0 +1,9 @@
+let audience = document.querySelector('.audience-button');
+let host = document.querySelector('.host-button');
+
+audience.addEventListener('click', function() {
+  let duration = 0.3, delay = 0.08;
+  TweenMax.to(audience, duration, {scaleY: 1.6, ease: Expo.easeOut});
+  TweenMax.to(audience, duration, {scaleX: 1.2, scaleY: 1, ease: Back.easeOut, easeParams:[3], delay: delay});
+  TweenMax.to(audience, duration * 1.25, {scaleX: 1, scaleY: 1, ease: Back.easeOut, easeParams:[6], delay: delay * 3})
+});

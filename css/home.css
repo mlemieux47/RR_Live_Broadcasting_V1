@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  text-align: center;
+};
+
+.audience-button {
+  margin-right: 10%;
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+};
+
+.host-button {
+  margin-left: 10%;
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+};
