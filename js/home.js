@@ -8,9 +8,9 @@ audience.addEventListener('click', function() {
   TweenMax.to(audience, duration * 1.25, {scaleX: 1, scaleY: 1, ease: Back.easeOut, easeParams:[6], delay: delay * 3})
 });
 
-// let clickme = document.querySelector("#clickme");
+let clickme = document.querySelector("#clickme");
 
-// clickme.addEventListener("click", alertScreen = () => {
-//   setTimeout(function() {
-//     alert("hello"); }, 3000);
-// });
+clickme.addEventListener("click", alertScreen = () => {
+  setInterval(function() {
+    location.reload(); }, 3000);
+});
